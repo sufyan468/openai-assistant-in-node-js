@@ -20,7 +20,7 @@ async function prompt(question) {
   });
 }
 
-const instructions = `This assistant is designed to help you search for files. You can ask questions like "Find me the file with the name 'example.txt'".`;
+const instructions = `This assistant is designed to help you search for files. You can ask questions like "Find in the file where the policy name is 'Updated HR policy 2024'".`;
 
 async function runAssistant() {
   try {
